@@ -1,0 +1,590 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 1024 1024"
+  width="1024"
+  height="1024"
+  role="img"
+  aria-labelledby="title desc"
+>
+
+  <title id="title">Edutopia</title>
+  <desc id="desc">
+    Logo educativo colorido con libros abiertos y un birrete de graduación
+  </desc>
+
+  <defs>
+
+    <!-- =========================================================
+         GRADIENTES
+    ========================================================== -->
+
+    <linearGradient id="blueCap" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#168cff"/>
+      <stop offset="48%" stop-color="#006be8"/>
+      <stop offset="100%" stop-color="#0042a9"/>
+    </linearGradient>
+
+    <linearGradient id="blueCapDark" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#075bd2"/>
+      <stop offset="100%" stop-color="#003a91"/>
+    </linearGradient>
+
+    <linearGradient id="bookBlue" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#10b7ff"/>
+      <stop offset="100%" stop-color="#0065e6"/>
+    </linearGradient>
+
+    <linearGradient id="yellow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffe52c"/>
+      <stop offset="55%" stop-color="#ffc300"/>
+      <stop offset="100%" stop-color="#ff9700"/>
+    </linearGradient>
+
+    <linearGradient id="orange" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffb52b"/>
+      <stop offset="100%" stop-color="#ff7a00"/>
+    </linearGradient>
+
+    <linearGradient id="cyan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#20d7ff"/>
+      <stop offset="100%" stop-color="#008be9"/>
+    </linearGradient>
+
+    <linearGradient id="green" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#91ef28"/>
+      <stop offset="100%" stop-color="#35c900"/>
+    </linearGradient>
+
+    <linearGradient id="purple" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d56aff"/>
+      <stop offset="100%" stop-color="#8d25df"/>
+    </linearGradient>
+
+    <linearGradient id="whiteBook" x1="0" y1="0" x2="0.8" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="72%" stop-color="#f4f6fb"/>
+      <stop offset="100%" stop-color="#dce3f0"/>
+    </linearGradient>
+
+    <!-- =========================================================
+         SOMBRAS
+    ========================================================== -->
+
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%">
+      <feDropShadow
+        dx="0"
+        dy="12"
+        stdDeviation="9"
+        flood-color="#001b65"
+        flood-opacity=".35"
+      />
+    </filter>
+
+    <filter id="softShadow" x="-30%" y="-30%" width="160%" height="170%">
+      <feDropShadow
+        dx="0"
+        dy="8"
+        stdDeviation="7"
+        flood-color="#001b65"
+        flood-opacity=".25"
+      />
+    </filter>
+
+    <!-- =========================================================
+         BRILLOS
+    ========================================================== -->
+
+    <linearGradient id="highlight" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity=".65"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+
+  </defs>
+
+
+  <!-- ===========================================================
+       CONTENEDOR PRINCIPAL
+  ============================================================ -->
+
+  <g id="edutopia-logo">
+
+
+    <!-- =========================================================
+         LIBROS
+    ========================================================== -->
+
+    <g id="books" filter="url(#softShadow)">
+
+      <!-- LIBRO BLANCO IZQUIERDO -->
+      <path
+        id="book-left-back"
+        d="
+          M 154 501
+          C 175 421 263 366 353 387
+          C 418 402 466 441 506 491
+          L 494 564
+          C 447 512 399 480 339 465
+          C 270 448 205 468 154 501
+          Z
+        "
+        fill="url(#whiteBook)"
+        stroke="#092b88"
+        stroke-width="18"
+        stroke-linejoin="round"
+      />
+
+      <!-- LIBRO BLANCO DERECHO -->
+      <path
+        id="book-right-back"
+        d="
+          M 518 491
+          C 561 439 610 402 674 387
+          C 764 365 849 421 870 501
+          C 815 468 750 448 681 465
+          C 621 480 572 512 518 564
+          Z
+        "
+        fill="url(#whiteBook)"
+        stroke="#092b88"
+        stroke-width="18"
+        stroke-linejoin="round"
+      />
+
+      <!-- PÁGINAS IZQUIERDAS -->
+      <path
+        id="pages-left"
+        d="
+          M 141 510
+          C 207 469 271 465 336 480
+          C 404 496 451 529 503 579
+          L 488 641
+          C 440 590 390 558 329 543
+          C 259 526 191 537 134 570
+          Z
+        "
+        fill="url(#whiteBook)"
+        stroke="#092b88"
+        stroke-width="18"
+        stroke-linejoin="round"
+      />
+
+      <!-- PÁGINAS DERECHAS -->
+      <path
+        id="pages-right"
+        d="
+          M 521 579
+          C 573 529 620 496 688 480
+          C 753 465 817 469 883 510
+          L 890 570
+          C 833 537 765 526 695 543
+          C 634 558 584 590 536 641
+          Z
+        "
+        fill="url(#whiteBook)"
+        stroke="#092b88"
+        stroke-width="18"
+        stroke-linejoin="round"
+      />
+
+      <!-- LIBRO AZUL IZQUIERDO -->
+      <path
+        id="blue-book-left"
+        d="
+          M 92 542
+          C 188 485 299 493 397 538
+          C 442 559 478 586 510 622
+          L 498 686
+          C 455 642 413 618 359 603
+          C 269 578 181 589 98 629
+          Z
+        "
+        fill="url(#bookBlue)"
+        stroke="#092b88"
+        stroke-width="18"
+        stroke-linejoin="round"
+      />
+
+      <!-- LIBRO AZUL DERECHO -->
+      <path
+        id="blue-book-right"
+        d="
+          M 514 622
+          C 546 586 582 559 627 538
+          C 725 493 836 485 932 542
+          L 926 629
+          C 843 589 755 578 665 603
+          C 611 618 569 642 526 686
+          Z
+        "
+        fill="url(#bookBlue)"
+        stroke="#092b88"
+        stroke-width="18"
+        stroke-linejoin="round"
+      />
+
+      <!-- BRILLO LIBRO IZQUIERDO -->
+      <path
+        d="
+          M 108 548
+          C 202 508 296 514 379 551
+          C 410 565 438 581 461 599
+          C 350 545 230 538 119 584
+          Z
+        "
+        fill="#36d8ff"
+        opacity=".45"
+      />
+
+      <!-- BRILLO LIBRO DERECHO -->
+      <path
+        d="
+          M 564 599
+          C 588 581 615 565 646 551
+          C 729 514 823 508 916 548
+          L 905 584
+          C 794 538 674 545 564 599
+          Z
+        "
+        fill="#36d8ff"
+        opacity=".45"
+      />
+
+    </g>
+
+
+    <!-- =========================================================
+         BIRRETE
+    ========================================================== -->
+
+    <g id="graduation-cap" filter="url(#shadow)">
+
+      <!-- PARTE INFERIOR / SOMBRA -->
+      <path
+        id="cap-base"
+        d="
+          M 369 322
+          L 653 322
+          L 660 443
+          C 659 483 623 507 578 520
+          L 514 542
+          L 448 520
+          C 403 507 366 483 365 443
+          Z
+        "
+        fill="url(#blueCapDark)"
+        stroke="#092b88"
+        stroke-width="18"
+        stroke-linejoin="round"
+      />
+
+      <!-- BRILLO FRONTAL -->
+      <path
+        d="
+          M 382 345
+          L 640 345
+          L 643 419
+          C 638 454 610 469 570 483
+          L 512 505
+          L 453 483
+          C 414 469 386 454 381 419
+          Z
+        "
+        fill="#0c72e9"
+        opacity=".65"
+      />
+
+      <!-- ROMBO SUPERIOR -->
+      <path
+        id="cap-top"
+        d="
+          M 283 282
+          L 489 204
+          C 505 198 519 198 535 204
+          L 742 282
+          C 758 288 758 310 742 317
+          L 535 397
+          C 519 403 505 403 489 397
+          L 283 317
+          C 267 310 267 288 283 282
+          Z
+        "
+        fill="url(#blueCap)"
+        stroke="#092b88"
+        stroke-width="18"
+        stroke-linejoin="round"
+      />
+
+      <!-- BRILLO DEL ROMBO -->
+      <path
+        d="
+          M 297 281
+          L 493 211
+          C 507 206 518 206 531 211
+          L 723 282
+          C 733 286 733 297 722 302
+          L 528 375
+          C 516 380 507 380 494 375
+          L 298 301
+          C 288 297 288 286 297 281
+          Z
+        "
+        fill="#1496ff"
+        opacity=".5"
+      />
+
+      <!-- BORDE INFERIOR DEL BIRRETE -->
+      <path
+        d="
+          M 367 344
+          C 422 366 467 385 509 400
+          C 520 404 530 404 541 400
+          C 582 385 627 366 660 351
+          L 659 375
+          C 622 392 579 411 538 426
+          C 525 431 513 431 500 426
+          C 459 411 416 392 368 373
+          Z
+        "
+        fill="#003c9d"
+        opacity=".75"
+      />
+
+      <!-- CORDÓN -->
+      <path
+        id="tassel-cord"
+        d="
+          M 515 285
+          C 560 299 608 311 649 327
+          L 649 375
+        "
+        fill="none"
+        stroke="#ffc400"
+        stroke-width="15"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+
+      <!-- BORLA -->
+      <g id="tassel">
+
+        <circle
+          cx="649"
+          cy="380"
+          r="23"
+          fill="url(#yellow)"
+          stroke="#e89c00"
+          stroke-width="7"
+        />
+
+        <path
+          d="
+            M 634 397
+            C 627 421 620 449 617 468
+            C 616 480 627 488 640 485
+            L 649 462
+            L 658 485
+            C 671 488 682 480 681 468
+            C 678 449 671 421 664 397
+            Z
+          "
+          fill="url(#yellow)"
+          stroke="#e89c00"
+          stroke-width="7"
+          stroke-linejoin="round"
+        />
+
+        <path
+          d="M 638 420 L 631 468"
+          stroke="#ffdc16"
+          stroke-width="5"
+          stroke-linecap="round"
+          opacity=".8"
+        />
+
+        <path
+          d="M 649 420 L 649 474"
+          stroke="#ffdc16"
+          stroke-width="5"
+          stroke-linecap="round"
+          opacity=".8"
+        />
+
+        <path
+          d="M 660 420 L 669 468"
+          stroke="#ffdc16"
+          stroke-width="5"
+          stroke-linecap="round"
+          opacity=".8"
+        />
+
+      </g>
+
+      <!-- BOTÓN SUPERIOR DEL CORDÓN -->
+      <circle
+        cx="515"
+        cy="285"
+        r="14"
+        fill="#ffd000"
+        stroke="#e69c00"
+        stroke-width="5"
+      />
+
+    </g>
+
+
+    <!-- =========================================================
+         TEXTO EDUTOPIA
+    ========================================================== -->
+
+    <g
+      id="wordmark"
+      font-family="'Arial Rounded MT Bold', 'Trebuchet MS', Arial, sans-serif"
+      font-weight="900"
+      stroke="#092b88"
+      stroke-width="18"
+      stroke-linejoin="round"
+      paint-order="stroke fill"
+      text-anchor="middle"
+    >
+
+      <!-- E -->
+      <text
+        id="letter-e"
+        class="letter letter-e"
+        x="105"
+        y="720"
+        font-size="255"
+        fill="#ffffff"
+        transform="rotate(-7 105 720)"
+      >E</text>
+
+      <!-- D -->
+      <text
+        id="letter-d"
+        class="letter letter-d"
+        x="270"
+        y="725"
+        font-size="255"
+        fill="#ffffff"
+        transform="rotate(-2 270 725)"
+      >d</text>
+
+      <!-- U -->
+      <text
+        id="letter-u"
+        class="letter letter-u"
+        x="407"
+        y="720"
+        font-size="240"
+        fill="#ffffff"
+        transform="rotate(1 407 720)"
+      >u</text>
+
+      <!-- T -->
+      <text
+        id="letter-t"
+        class="letter letter-t"
+        x="515"
+        y="724"
+        font-size="240"
+        fill="url(#yellow)"
+        transform="rotate(-1 515 724)"
+      >t</text>
+
+      <!-- O -->
+      <text
+        id="letter-o"
+        class="letter letter-o"
+        x="625"
+        y="728"
+        font-size="230"
+        fill="url(#cyan)"
+      >o</text>
+
+      <!-- P -->
+      <text
+        id="letter-p"
+        class="letter letter-p"
+        x="740"
+        y="730"
+        font-size="230"
+        fill="url(#green)"
+        transform="rotate(2 740 730)"
+      >p</text>
+
+      <!-- I -->
+      <text
+        id="letter-i"
+        class="letter letter-i"
+        x="820"
+        y="724"
+        font-size="225"
+        fill="url(#orange)"
+      >i</text>
+
+      <!-- A -->
+      <text
+        id="letter-a"
+        class="letter letter-a"
+        x="906"
+        y="730"
+        font-size="225"
+        fill="url(#purple)"
+        transform="rotate(4 906 730)"
+      >a</text>
+
+    </g>
+
+
+    <!-- =========================================================
+         DETALLES DE LA "I"
+    ========================================================== -->
+
+    <g id="i-sparkle">
+
+      <circle
+        cx="821"
+        cy="571"
+        r="25"
+        fill="url(#orange)"
+        stroke="#092b88"
+        stroke-width="12"
+      />
+
+      <path
+        d="
+          M 923 466
+          L 910 514
+          M 966 515
+          L 932 541
+          M 978 585
+          L 943 586
+        "
+        fill="none"
+        stroke="#ffc400"
+        stroke-width="18"
+        stroke-linecap="round"
+      />
+
+    </g>
+
+
+    <!-- =========================================================
+         SOMBRA GENERAL INFERIOR
+    ========================================================== -->
+
+    <path
+      id="ground-shadow"
+      d="
+        M 88 780
+        C 230 821 756 831 934 784
+        C 858 845 218 858 88 780
+        Z
+      "
+      fill="#001d72"
+      opacity=".16"
+    />
+
+  </g>
+
+</svg>

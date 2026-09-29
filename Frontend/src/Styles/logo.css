@@ -1,0 +1,24 @@
+.logo {
+  display: block;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Logo del Navbar */
+.logo-navbar {
+  width: 100px;
+  height: auto;
+}
+
+/* Logo normal */
+.logo-default {
+  width: 180px;
+}
+
+/* Responsive */
+@media (max-width: 650px) {
+  .logo-navbar {
+    width: 120px;
+  }
+}

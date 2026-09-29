@@ -1,0 +1,6 @@
+.env
+.secret_key
+__pycache__/
+*.py[cod]
+Frontend/node_modules/
+Frontend/dist/
